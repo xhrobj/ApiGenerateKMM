@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "UICore",
+        "repositoryURL": "https://github.com/xhrobj/UICore",
+        "state": {
+          "branch": null,
+          "revision": "caa9f6bdbd2adfd08e5d90467e9b7a9aa040ba46",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

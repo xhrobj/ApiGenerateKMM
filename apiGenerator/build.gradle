@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url = "https://dl.bintray.com/icerockdev/plugins" }
+    }
+
+    dependencies {
+        classpath "dev.icerock.moko:network-generator:0.8.0"
+    }
+}
+
+apply plugin: "dev.icerock.mobile.multiplatform-network-generator"
+
+openApiGenerate {
+    inputSpec.set(file("openapi.yaml").path)
+    generatorName.set("kotlin-ktor-client")
+}
